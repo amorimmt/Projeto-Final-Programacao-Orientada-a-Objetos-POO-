@@ -1,4 +1,4 @@
-package src.servico;
+package servico;
 import modelo.Transacao;
 import java.util.ArrayList;
 import java.util.Collections;
