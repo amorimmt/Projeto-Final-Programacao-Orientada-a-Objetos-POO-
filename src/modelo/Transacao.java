@@ -1,8 +1,6 @@
 package modelo;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 
 public abstract class Transacao {
     protected int id;
@@ -16,7 +14,7 @@ public abstract class Transacao {
         this.nome = nome;
         this.descricao = descricao;
         this.valor = valor;
-        LocaleDate.now();
+        this.data = LocalDate.now();
         this.categoria = categoria;
     }
     public Transacao(int id, String nome, String descricao, double valor, LocalDate data, Categoria categoria) {
