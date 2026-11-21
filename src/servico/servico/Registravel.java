@@ -6,7 +6,7 @@ public interface Registravel {
 
     void inserir(Transacao transacao) throws ControleGastosException;
 
-    void atualizar(int id, Transacao nova) throws ControleGastosException;
+    void atualizar(int id, double novoValor) throws ControleGastosException;
 
     void remover(int id) throws ControleGastosException;
 
